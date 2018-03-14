@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+    <add id="WsoftPro_Sinhvien::student" title="QLSV" module="WsoftPro_Sinhvien" sortOrder="50" resource="WsoftPro_Sinhvien::student" />
+    <add id="WsoftPro_Sinhvien::grid" title="Student Grid" module="WsoftPro_Sinhvien" sortOrder="20" parent="WsoftPro_Sinhvien::student" action="student/grid" resource="WsoftPro_Sinhvien::grid"/>
+  </menu>
+</config>
